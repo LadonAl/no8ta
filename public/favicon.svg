@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 297 364" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-255.795,-127.711)">
+        <g id="white">
+            <g transform="matrix(0.738843,0.673878,-0.673878,0.738843,287.149,-253.505)">
+                <rect x="400" y="273" width="41" height="41" style="fill:white;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0.0495687,-62.2889)">
+                <path d="M318,190L322.367,207.869C297.335,227.635 281.5,256.774 281.5,289.25C281.5,348.719 334.598,397 400,397C465.402,397 518.5,348.719 518.5,289.25C518.5,285.093 518.241,280.991 517.735,276.956C533.885,266.447 528,270 533.885,266.447C536.573,277.192 538,288.431 538,300C538,376.164 476.164,438 400,438C323.836,438 259.015,376.106 262,300C264,249 295.23,204.383 318,190Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(7.60268,0,0,7.60268,-2131.55,-3293.02)">
+                <text x="312.956px" y="497.652px" style="font-family:'Inter-Regular', 'Inter', sans-serif;font-size:12px;fill:white;">NO8T<tspan x="345.206px " y="497.652px ">A</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>
