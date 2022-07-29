@@ -14,7 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "react-jsx", // @TODO: is this an issue? 
     "baseUrl": ".",
     "paths": {
       "@assets/*": ["./src/assets/*"],
@@ -24,6 +24,8 @@
       "@pages/*": ["./src/pages/*"],
       "@queries/*": ["./src/queries/*"],
       "@theme/*": ["./src/theme/*"],
+      "@fonts/*": ["./src/fonts/*"],
+      "@styles/*": ["./src/styles/*"],
     }
   },
   "include": ["src"],

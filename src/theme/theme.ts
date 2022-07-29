@@ -13,6 +13,9 @@ declare module "styled-components" {
       red: string;
       yellow: string;
     };
+    fonts: {
+      [key: string]: string;
+    };
   }
 }
 
@@ -27,5 +30,8 @@ export const defaultTheme: DefaultTheme = {
     },
     red: "#AE0707",
     yellow: "#E0E90F",
+  },
+  fonts: {
+    Urbanist: '"Urbanist", Verdana, Geneva, Tahoma, sans-serif',
   },
 };

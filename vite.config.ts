@@ -14,6 +14,8 @@ export default defineConfig({
       "@pages": path.resolve("./src/pages"),
       "@queries": path.resolve("./src/queries"),
       "@theme": path.resolve("./src/theme"),
+      "@fonts": path.resolve("./src/fonts"),
+      "@styles": path.resolve("./src/styles"),
     },
   },
 });
