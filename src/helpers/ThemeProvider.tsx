@@ -1,8 +1,9 @@
-import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "@theme/theme";
 import { ReactNode } from "react";
+import { ThemeProvider } from "styled-components";
+
 import Fonts from "@fonts/export";
 import { Scrollbar } from "@styles/index";
+import { defaultTheme } from "@theme/theme";
 
 interface Props {
   children?: ReactNode;

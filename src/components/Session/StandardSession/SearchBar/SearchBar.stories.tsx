@@ -1,11 +1,12 @@
-import SearchBarComponent from "./SearchBar";
 import { ComponentMeta } from "@storybook/react";
+
+import SearchBarComponent from "./SearchBar";
 import ThemeProvider from "@helpers/ThemeProvider";
 
 export function SearchBar() {
   return (
     <ThemeProvider>
-      <SearchBarComponent w='100%' />
+      <SearchBarComponent w="100%" />
     </ThemeProvider>
   );
 }

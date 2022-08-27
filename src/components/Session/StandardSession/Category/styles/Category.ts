@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
+  align-items: center;
   all: initial;
-  width: 100%;
+  background-color: red;
   border-radius: 1em;
-  min-height: 10em;
-  outline: solid red 1px;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
-  background-color: red;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
-
+  min-height: 10em;
+  outline: solid red 1px;
+  width: 100%;
   > *:nth-child(1) {
     flex: 1;
   }
@@ -22,8 +21,8 @@ export const Container = styled.button`
 `;
 
 export const Text = styled.h1<{ color?: string }>`
-  font-size: 2rem;
   color: ${(props) => props.color || props.theme.colors.white};
-  margin: 0;
   font-family: ${(props) => props.theme.fonts.Urbanist};
+  font-size: 2rem;
+  margin: 0;
 `;

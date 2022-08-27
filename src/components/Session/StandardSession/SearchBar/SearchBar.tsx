@@ -1,12 +1,16 @@
-import { forwardRef, PropsWithChildren } from "react";
-import { Container, Input, Icon } from "./styles/SearchBar";
+import { PropsWithChildren, forwardRef } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
+
+import { Container, Icon, Input } from "./styles/SearchBar";
 
 export interface SearchBarProps extends PropsWithChildren {
   w: string;
 }
 
-export default forwardRef<HTMLInputElement, SearchBarProps>(function (props, ref) {
+export default forwardRef<HTMLInputElement, SearchBarProps>(function (
+  props,
+  ref,
+) {
   const { w, ...rest } = props;
   return (
     <Container w={w}>

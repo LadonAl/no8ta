@@ -1,7 +1,8 @@
-import AvatarComponent from "./Avatar";
 import { ComponentMeta } from "@storybook/react";
-import ThemeProvider from "@helpers/ThemeProvider";
 import { AiOutlineSearch } from "react-icons/ai";
+
+import AvatarComponent from "./Avatar";
+import ThemeProvider from "@helpers/ThemeProvider";
 
 export function Avatar() {
   return (

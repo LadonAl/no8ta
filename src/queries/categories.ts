@@ -64,7 +64,10 @@ const MOCK_CATEGORIES: Array<Category> = [
   },
 ];
 
-const MOCK_CATEGORIES_BY_ID: CategoryById = MOCK_CATEGORIES.reduce((out: CategoryById, category) => ((out[category.id] = category), out), {});
+const MOCK_CATEGORIES_BY_ID: CategoryById = MOCK_CATEGORIES.reduce(
+  (out: CategoryById, category) => ((out[category.id] = category), out),
+  {},
+);
 
 export async function getCategories() {
   await wait(3000);
@@ -78,4 +81,7 @@ export async function getCategory(id: number) {
 
 export const CATEGORIES_QUERY = ["categories", getCategories];
 
-export const CATEGORY_QUERY = (id: number) => ["category", () => getCategory(id)];
+export const CATEGORY_QUERY = (id: number) => [
+  "category",
+  () => getCategory(id),
+];

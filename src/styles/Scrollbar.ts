@@ -5,7 +5,8 @@ export const Scrollbar = createGlobalStyle`
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: ${(props) => props.theme.colors.green + " " + props.theme.colors.gray[200]};
+    scrollbar-color: ${(props) =>
+      props.theme.colors.green + " " + props.theme.colors.gray[200]};
   }
 
   /* Chrome, Edge, and Safari */

@@ -1,8 +1,8 @@
-import CategoryComponent from "./Category";
 import { ComponentMeta } from "@storybook/react";
-import ThemeProvider from "@helpers/ThemeProvider";
 
+import CategoryComponent from "./Category";
 import category from "./Category.mock";
+import ThemeProvider from "@helpers/ThemeProvider";
 
 export function Category() {
   return (

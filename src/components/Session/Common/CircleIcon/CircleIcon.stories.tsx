@@ -1,12 +1,13 @@
-import CircleIconComponent from "./CircleIcon";
 import { ComponentMeta } from "@storybook/react";
-import ThemeProvider from "@helpers/ThemeProvider";
 import { AiOutlineSearch } from "react-icons/ai";
+
+import CircleIconComponent from "./CircleIcon";
+import ThemeProvider from "@helpers/ThemeProvider";
 
 export function CircleIcon() {
   return (
     <ThemeProvider>
-      <CircleIconComponent Icon={AiOutlineSearch} color='black' />
+      <CircleIconComponent Icon={AiOutlineSearch} color="black" />
     </ThemeProvider>
   );
 }

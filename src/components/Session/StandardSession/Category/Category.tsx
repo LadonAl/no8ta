@@ -1,7 +1,7 @@
-import { Category as CategoryType } from "@queries/categories";
-import IconMapper from "@helpers/IconMapper";
 import { Container, Text } from "./styles/Category";
 import CircleIcon from "@components/Session/Common/CircleIcon/CircleIcon";
+import IconMapper from "@helpers/IconMapper";
+import { Category as CategoryType } from "@queries/categories";
 
 export interface CategoryProps {
   category: CategoryType;

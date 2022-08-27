@@ -1,0 +1,13 @@
+{
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "importOrder": [
+        "(^@(assets|components|helpers|layouts|pages|queries|theme|fonts|styles)/(.*)$|^[./])"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
